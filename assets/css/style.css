@@ -14,6 +14,28 @@ button:focus {
     outline: 0px auto transparent;
 }
 
+section {
+    padding: 50px 0px 50px 0px;
+}
+
+.row-gap {
+    gap: 75px;
+}
+
+.btn {
+    background-color: var(--salmon);
+    box-shadow: -5px 5px 0px var(--navy);
+    border-radius: 0px;
+    color: var(--white);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: -10px 10px 0px var(--navy);
+    color: var(--navy);
+}
+
 /*NAVIGATION*/
 .navbar {
     border-bottom: 1px solid var(--navy);
@@ -31,4 +53,15 @@ button:focus {
 
 .nav-link:hover {
     color: var(--salmon) !important;
+}
+
+/*HERO SECTION*/
+
+.jumbotron {
+    padding-top: 150px;
+    background-color: transparent;
+}
+
+.img-shadow {
+    box-shadow: -25px 25px 0px var(--salmon);
 }
