@@ -17,7 +17,19 @@ html {
 
 body {
     font-family: 'Space Mono', monospace;
+    color: var(--navy);
     background-color: var(--white);
+}
+
+a {
+    color: var(--navy);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--salmon);
+    text-decoration: none;
 }
 
 button:focus {
@@ -55,6 +67,10 @@ section {
 .btn-2:hover {
     background-color: var(--salmon);
     color: var(--white);
+}
+
+.col-md-6 {
+    margin-bottom: 25px;
 }
 
 /*NAVIGATION*/
@@ -119,4 +135,20 @@ section {
 
 .skills .card li {
     list-style-type: none;
+}
+
+/*CONTACT SECTION*/
+.contact .socials a {
+    font-size: 1.5em;
+}
+
+/*FOOTER*/
+footer {
+    background-color: var(--navy);
+    padding: 50px 0px;
+}
+
+footer p {
+    color: var(--white);
+    margin-bottom: 0px;
 }
