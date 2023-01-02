@@ -3,6 +3,7 @@
     --white: #fffaff;
     --navy: #404046;
     --salmon: #fc5130;
+    --fade: #e7dce7;
 }
 
 body {
@@ -36,6 +37,17 @@ section {
     color: var(--navy);
 }
 
+.btn-2 {
+    box-shadow: unset;
+    background-color: var(--navy);
+}
+
+.btn-2:hover {
+    box-shadow: unset;
+    background-color: var(--salmon);
+    color: var(--white);
+}
+
 /*NAVIGATION*/
 .navbar {
     border-bottom: 1px solid var(--navy);
@@ -64,4 +76,17 @@ section {
 
 .img-shadow {
     box-shadow: -25px 25px 0px var(--salmon);
+}
+
+/*WORK SECTION*/
+
+.title {
+    margin-bottom: 50px;
+}
+.card {
+    box-shadow: -10px 10px 0px var(--navy);
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 25px;
+    background-color: var(--fade);
 }
