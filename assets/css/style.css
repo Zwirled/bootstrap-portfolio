@@ -4,6 +4,15 @@
     --navy: #404046;
     --salmon: #fc5130;
     --fade: #e7dce7;
+    --selection: rgba(252, 82, 48, 0.3);
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+::selection {
+    background: var(--selection);
 }
 
 body {
@@ -16,6 +25,7 @@ button:focus {
 }
 
 section {
+    scroll-margin-top: 100px;
     padding: 50px 0px 50px 0px;
 }
 
@@ -82,10 +92,31 @@ section {
 .title {
     margin-bottom: 50px;
 }
-.card {
+.work .card {
     box-shadow: -10px 10px 0px var(--navy);
     border-radius: 0px;
     border: none;
     margin-bottom: 25px;
     background-color: var(--fade);
+}
+
+/*SKILLS SECTION*/
+.skills {
+    background-color: var(--fade);
+}
+
+.skills .card {
+    box-shadow: -10px 10px 0px var(--salmon);
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 25px;
+    background-color: var(--white);
+}
+
+.skills .card ul {
+    padding-left: 0;
+}
+
+.skills .card li {
+    list-style-type: none;
 }
