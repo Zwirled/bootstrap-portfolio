@@ -144,11 +144,47 @@ section {
 
 /*FOOTER*/
 footer {
-    background-color: var(--navy);
+    background-color: var(--fade);
+}
+
+footer .row {
     padding: 50px 0px;
+}
+
+footer .row-one {
+    background-color: var(--navy);
 }
 
 footer p {
     color: var(--white);
     margin-bottom: 0px;
+}
+
+footer .button {
+    background-color: var(--salmon);
+    box-shadow: -5px 5px 0px var(--navy);
+    border-radius: 0px;
+    color: var(--white);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    padding: 10px;
+    }
+    
+footer .button:hover {
+    box-shadow: -10px 10px 0px var(--navy);
+    color: var(--navy);
+}
+
+.scroll-up {
+    float: right;
+}
+
+.back-to-top {
+    color: var(--white);
+    padding-bottom: 5px;
+    border-bottom: 0px solid var(--salmon);
+}
+
+.back-to-top:hover {
+    border-bottom: 1px solid var(--salmon);
 }
