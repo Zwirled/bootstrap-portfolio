@@ -1,0 +1,34 @@
+/*GLOBAL STYLING*/
+:root {
+    --white: #fffaff;
+    --navy: #404046;
+    --salmon: #fc5130;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: var(--white);
+}
+
+button:focus {
+    outline: 0px auto transparent;
+}
+
+/*NAVIGATION*/
+.navbar {
+    border-bottom: 1px solid var(--navy);
+}
+
+.navbar-toggler {
+    border: 1px solid transparent !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: var(--navy) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--salmon) !important;
+}
