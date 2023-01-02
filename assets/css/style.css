@@ -43,7 +43,6 @@ section {
 }
 
 .btn-2:hover {
-    box-shadow: unset;
     background-color: var(--salmon);
     color: var(--white);
 }
