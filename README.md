@@ -9,7 +9,7 @@ A new portfolio site built using Bootstrap framework, along with HTML & CSS to s
 
 N/A
 
-View site at: https://zwirled.github.io/week-03-challenge-03/
+View site at: https://zwirled.github.io/bootstrap-portfolio/
 
 ## Usage
 
